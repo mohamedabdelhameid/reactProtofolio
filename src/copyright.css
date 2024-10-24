@@ -6,7 +6,7 @@
   margin-top: 0px;
   z-index: 5;
   position: relative;
-  bottom: 5px;
+  bottom: 10px;
   width: 100%;
 }
 .spanTeXt {
@@ -46,12 +46,12 @@
 @media (max-width: 1335px) {
   .DivmAin {
     /* position: fixed; */
-    bottom: 50px;
+    bottom: 80px;
   }
 }
 @media (max-width: 425px) {
   .DivmAin {
-    bottom: 85px;
+    bottom: 90px;
     padding: 0px 0px;
   }
 }
