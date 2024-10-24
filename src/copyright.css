@@ -46,12 +46,12 @@
 @media (max-width: 1335px) {
   .DivmAin {
     /* position: fixed; */
-    bottom: 80px;
+    bottom: 90px;
   }
 }
 @media (max-width: 425px) {
   .DivmAin {
-    bottom: 90px;
+    bottom: 95px;
     padding: 0px 0px;
   }
 }
