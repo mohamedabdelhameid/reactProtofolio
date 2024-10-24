@@ -1,0 +1,54 @@
+.griddd{
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill,minmax(300px,1fr)); */
+  /* gap: 10px; */
+  min-height: 85vh;
+  align-content: center;
+}
+.griddd .divNum1 .Div2IMAGge{
+  position: relative;
+  cursor: pointer;
+  height: 200px;
+}
+.griddd .divNum1 .divhiddenShowen{
+  border-radius: 18px;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+  transition: 0.4s;
+  box-shadow: 0 0 10px 10px #686d87;
+  margin-bottom: 10px;
+  transform: translateY(0px);
+  z-index: 5;
+  background-color: #385c5c;
+  height: 150px;
+  align-content: center;
+  font-weight: 700;
+}
+.griddd .divNum1 .divhiddenShowen p{
+  line-height: 1.5;
+}
+.resLink{
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.589);
+  transition: 0.3s;
+  /* margin: 0 8px; */
+  font-size: 20px;
+}
+.resLink::before{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #fff;
+  transition: 0.5s;
+}
+.resLink:hover:before{
+  width: 100%;
+}
+.resLink:hover{
+  color: #fff;
+}

@@ -1,0 +1,112 @@
+.griddddd{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  column-gap: 25px;
+  min-height: 85vh;
+  align-content: center;
+}
+.griddddd .div2 h1{
+  position: relative;
+  display: inline-block;
+}
+.griddddd .div2 h1::after{
+  content: "";
+  position: absolute;
+  bottom: 35%;
+  height: 10px;
+  background-color: rgb(114, 114, 114);
+  transition: 0.5s;
+  border-radius: 15px;
+}
+.griddddd .div2 .back{
+  background-color: #eee;
+  display: inline-block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px 5px gray;
+  transition: all 0.3s cubic-bezier(0.25,0.8,0.25,1);
+  cursor: pointer;
+  width: 100%;
+}
+.griddddd .div2 .back:hover{
+  box-shadow: 0 0 15px 10px gray;
+}
+.griddddd .div2 .back span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg,rgba(0, 0, 251, 0.676),rgb(0, 0, 93));
+  background: linear-gradient(135deg, rgb(29 86 86 / 55%), rgb(29 86 86));
+}
+.fronthtml{
+  animation: pplushtml 3s ease-out;
+  width: 95%;
+}
+.frontcss{
+  animation: ppluscss 3s ease-out;
+  width: 90%;
+}
+.frontjs{
+  animation: pplusjs 3s ease-out;
+  width: 80%;
+}
+.frontbs{
+  animation: pplusbs 3s ease-out;
+  width: 85%;
+}
+.frontR{
+  animation: pplusR 3s ease-out;
+  width: 70%;
+}
+@keyframes pplushtml {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 95%;
+  }
+}
+@keyframes ppluscss {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 90%;
+  }
+}
+@keyframes pplusjs {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 80%;
+  }
+}
+@keyframes pplusbs {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 85%;
+  }
+}
+@keyframes pplusR {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .griddddd{
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 545px) {
+  .pRO{
+    font-size: 40px;
+  }
+}

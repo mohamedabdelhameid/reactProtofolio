@@ -1,0 +1,120 @@
+.div14Grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  min-height: 85vh;
+}
+.div14Grid .content2sec3{
+  align-content: center;
+  padding: 15px;
+}
+.abbout{
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* .codeSparkCompany{
+  position: relative;
+  text-decoration: none;
+  /* color: #000000a2; */
+  /* transition: 0.3s;
+  margin: 0 8px;
+  font-size: 23px; */
+/* } */
+.div22imagge{
+  /* align-items: center; */
+  align-content: center;
+}
+/* .codeSparkCompany:hover{
+  color: blue;
+  /* font-weight: 800; */
+/* } */ 
+.pContent2sec3{
+  font-size: 21px;
+  line-height: 1.9;
+}
+.imgIndiv22imagge{
+  border-radius: 12px;
+}
+/* @media (min-width: 1024px) {
+  .codeSparkCompany{
+    position: relative;
+    text-decoration: none;
+    color: rgb(61, 61, 244);
+    transition: 0.3s;
+    margin: 0 8px;
+    font-size: 23px;
+  }
+  .codeSparkCompany::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: blue;
+    transition: 0.5s;
+  }
+  .codeSparkCompany:hover:before{
+    width: 100%;
+  }
+  .codeSparkCompany:hover{
+    color: blue;
+  }
+} */
+@media (max-width: 1024px) {
+  .pContent2sec3{
+    font-size: 18px;
+    line-height: 1.7;
+  }
+  /* .codeSparkCompany{
+    font-size: 20px;
+  } */
+}
+@media (max-width: 768px) {
+  .div14Grid{
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 425px) {
+  .pContent2sec3{
+    text-align: center;
+  }
+  .div14Grid .content2sec3{
+    align-content: unset;
+    padding: 15px;
+  }
+}
+.bblockk{
+  animation: appea1r 2s linear;
+  /* animation-timeline: view(); */
+  /* animation-range: entry 0% cover 40%; */
+}
+.bblockk2{
+  animation: appea2r 2s linear;
+  /* animation-timeline: view(); */
+  /* animation-range: entry 0% cover 40%; */
+}
+
+@keyframes appea1r {
+  from{
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes appea2r {
+  from{
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
