@@ -69,7 +69,7 @@ function Contactt(){
       <Navs />
         <TextControlsExample />
       </Container>
-      <CopyRight />
+      {/* <CopyRight /> */}
     </>
   )
 }

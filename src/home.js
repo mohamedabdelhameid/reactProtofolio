@@ -153,7 +153,7 @@ function Home(){
       <div className="momo">
       <Content />
       </div>
-      <CopyRight />
+      {/* <CopyRight /> */}
     </Container>
     </>
   )

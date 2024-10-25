@@ -193,7 +193,7 @@ function Projects(){
           <h2 style={{textAlign:'center'}}>All designs responsive in any screen</h2>
           <Swiperr />
         </div>
-      <CopyRight />
+      {/* <CopyRight /> */}
       </Container>
     </>
   )

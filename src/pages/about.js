@@ -30,7 +30,7 @@ function About() {
             </p>
           </div>
         </div>
-        <CopyRight />
+        {/* <CopyRight /> */}
       </Container>
     </>
   );

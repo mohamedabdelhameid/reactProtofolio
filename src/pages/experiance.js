@@ -63,7 +63,7 @@ function Experience(){
     <Container>
       <Navs />
       <WithLabelExample />
-      <CopyRight />
+      {/* <CopyRight /> */}
     </Container>
   )
 }
