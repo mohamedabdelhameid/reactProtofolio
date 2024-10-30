@@ -7,6 +7,7 @@ import imgpro2 from '../images/react.png';
 import imgpro3 from '../images/Visper.png';
 import imgpro4 from '../images/tammyFood.png';
 import imgpro5 from '../images/protfolio.png';
+import imgpro6 from '../images/crudPoster.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { A11y, Navigation, Scrollbar,Pagination } from "swiper/modules";
@@ -19,6 +20,7 @@ import vesperrVideo from '../videos/vesperrProject.mp4';
 import TammyProject from '../videos/tammyProject.mp4';
 import ShoppingProject from '../videos/shoppingProject.mp4';
 import portfolioProject from '../videos/portfolioProject.mp4';
+import CRUDProject from '../videos/CRUD.mp4';
 
 function Swiperr(){
   const [width, setWidth] = useState(window.innerWidth);
@@ -169,12 +171,30 @@ function Swiperr(){
           </div>
           <div className="divhiddenShowen">
             <p>
-              My portfolio.I make it to improve myself and show it to clients.
+              My portfolio.I make it to develop myself and view all projects.
               <br />
               <a
                 href="https://mohamedabdelhameid.github.io/myProtofolio"
                 className="resLink"
                 >myPortfolio </a>
+              using HTML, CSS, BOOTSTRAP and JAVASCRIPT.
+            </p>
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+      <div class="divNum1 Tam pro5">
+          <div class="Div2IMAGge">
+            <video src={CRUDProject}  poster={imgpro6} alt="" width='100%' className="imgghovver" controls/>
+          </div>
+          <div className="divhiddenShowen">
+            <p>
+              CRUD project.I make it to develop myself in JAVASCRIPT.
+              <br />
+              <a
+                href="https://mohamedabdelhameid.github.io/CRUD"
+                className="resLink"
+                >CRUD </a>
               using HTML, CSS, BOOTSTRAP and JAVASCRIPT.
             </p>
           </div>
