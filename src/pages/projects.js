@@ -96,7 +96,7 @@ function Swiperr(){
               Quick Shopping Project. I design it to practice on React.js .
               <br />
               <a
-                href="https://quick-shopping-lemon.vercel.app"
+                href="https://ecommerce-phi-jade-69.vercel.app"
                 className="resLink"
                 >Quick Shopping </a
               >
